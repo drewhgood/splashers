@@ -1,4 +1,6 @@
 Myapp::Application.routes.draw do
+  devise_for :views
+  devise_for :admins
   get "home/index"
   get "home/minor"
   get '/instructors', to: 'instructors#index'
