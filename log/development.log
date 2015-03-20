@@ -15714,3 +15714,196 @@ Started GET "/assets/a1.jpg" for 127.0.0.1 at 2015-03-20 14:39:36 -0700
 
 
 Started GET "/assets/patterns/header-profile.png" for 127.0.0.1 at 2015-03-20 14:39:37 -0700
+
+
+Started GET "/instructors" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+Processing by InstructorsController#index as HTML
+  [1m[35mInstructor Load (0.2ms)[0m  SELECT "instructors".* FROM "instructors"
+  Rendered instructors/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.1ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/animate/animate.css?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/jquery/jquery-2.1.1.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/peity/jquery.peity.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/pace/pace.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/inspinia.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/video/responsible-video.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/iCheck/icheck.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/jquery-ui/jquery-ui-1.10.4.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:51 -0700
+
+
+Started GET "/assets/fullcalendar/moment.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/fullcalendar/fullcalendar.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/rickshaw/rickshaw.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/rickshaw/vendor/d3.v3.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/flot/jquery.flot.tooltip.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/flot/jquery.flot.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/flot/jquery.flot.resize.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/flot/jquery.flot.pie.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/flot/jquery.flot.spline.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/flot/jquery.flot.time.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/sparkline/jquery.sparkline.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jvectormap/jquery-jvectormap-1.2.2.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/chartjs/Chart.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jvectormap/jquery-jvectormap-world-mill-en.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/toastr/toastr.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/blueimp/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/morris/raphael-2.1.0.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/morris/morris.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/summernote/summernote.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jeditable/jquery.jeditable.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/dataTables/dataTables.bootstrap.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/dataTables/dataTables.responsive.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/dataTables/dataTables.tableTools.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jqGrid/jquery.jqGrid.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jqGrid/i18n/grid.locale-el.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/nestable/jquery.nestable.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/codemirror/codemirror.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/codemirror/mode/javascript/javascript.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/validate/jquery.validate.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/jsTree/jstree.min.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/a1.jpg" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
+
+
+Started GET "/assets/patterns/header-profile.png" for 127.0.0.1 at 2015-03-20 15:31:52 -0700
